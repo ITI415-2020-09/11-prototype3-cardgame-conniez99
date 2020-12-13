@@ -79,7 +79,7 @@ public class FloatingScore : MonoBehaviour {
     {
         // When this callback is called by SendMessage,
         // add the score from the calling FloatingScore
-        score += fs.score;
+        score = fs.score;
     }
 
     // Update is called once per frame
